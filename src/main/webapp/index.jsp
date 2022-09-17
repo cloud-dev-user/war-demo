@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello Jenkins, CICD is successful</h2>
+<h2>Hello World!</h2>
 </body>
 </html>
