@@ -1,6 +1,6 @@
 pipeline{
 	agent  { node {
-                label 'linux'
+                label 'node_1.4'
 	}}
 	stages {
 	   stage("build & create package"){
