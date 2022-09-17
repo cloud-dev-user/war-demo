@@ -1,7 +1,7 @@
 pipeline{
-        agent   node {
+	agent  { node {
                 label 'linux'
-        }
+	}}
 	stages {
 	   stage("build & create package"){
                steps {
