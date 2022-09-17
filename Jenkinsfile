@@ -10,7 +10,7 @@ pipeline{
 		}		
            stage("tomcat deployment"){
                 steps {
-                   sh "cp target/devops.war /home/coder/apache-tomcat-9.0.64/webapps"				
+                   sh "cp /tmp/workspace/devops-war-demo/target/devops.war /home/coder/apache-tomcat-9.0.64/webapps"				
 		      }			   }		
 		}
 }
